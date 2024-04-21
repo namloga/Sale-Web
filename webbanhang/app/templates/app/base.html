@@ -11,11 +11,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link href- "{%static 'app/css/all.min.css'%}" rel="tylesheet"> <link href-
-    "{%static 'app/css/owl.carousel.min.css'%}" rel="tylesheet"> <link href-
-    "{%static 'app/css/style.css'%}" rel="tylesheet">
+    <link href- "{%static 'app/css/all.min.css'%}" rel="stylesheet"> <link href-
+    "{%static 'app/css/owl.carousel.min.css'%}" rel="stylesheet"> <link href-
+    "{%static 'app/css/style.css'%}" rel="stylesheet">
 
-    <link ref="stylesheet" type="text/css" href= "{% static "app/css/main.css" %}}">
+    <link ref="stylesheet" type="text/css" href= "{% static "app/css/main.css" %}">
     <!--js-->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -141,8 +141,10 @@
     </nav>
     <!--main-->
     {% block banner-slider %}{% endblock banner-slider %}
-    {% block main-content %}{% endblock main-content %}
+    {% block main-content %}
+    {% endblock main-content %}
+    
     <!--footer-->
-    <footer class='container--fluid bg-success text-center fixed-bottom p-2 mt-5'>Kết thúc</footer>
+    <footer class='container--fluid bg-success text-center fixed-bottom p-2 mt-5 '>Kết thúc</footer>
   </body>
 </html>
